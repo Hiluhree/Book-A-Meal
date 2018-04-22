@@ -1,2 +1,4 @@
 # Book-A-Meal
-Challenge 1
+Book-A-Meal is an application that allows customers to make food orders and helps the food vendor know what the customers want to eat.
+# Clone
+Get the files of the app by cloning 
