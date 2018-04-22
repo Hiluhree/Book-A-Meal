@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Specials</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="validation/admin.js">
+    </script>
+</head>
+
+<body>
+    <div id="page">
+        <div id="header">
+            <h1>Specials Management </h1>
+            <a href="index.html">Home</a> | <a href="categories.html">Categories</a> | <a href="foods.html">Foods</a> |  <a href="orders.html">Orders</a> |  <a href="specials.html">Specials</a> | <a href="staff.html">Staff</a> | <a href="#">Logout</a>
+            <div id="logo"> <a href="index.html" class="blockLink"></a></div>
+            <div id="restaurant_name">Chesehill Restaurant</div>
+        </div>
+        <div id="container">
+            <table width="850" align="center">
+                <caption><h3>Manage Offers/Promotions</h3></caption>
+                <form name="specialsForm" id="specialsForm" action="specials-exec.php" method="post" enctype="multipart/form-data" onsubmit="return specialsValidate(this)">
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Photo</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="name" id="name" class="textfield" /></td>
+                        <td><textarea name="description" id="description" class="textfield" rows="2" cols="15"></textarea></td>
+                        <td><input type="text" name="price" id="price" class="textfield" /></td>
+                        <td><input type="date" name="start_date" id="start_date" class="textfield" /></td>
+                        <td><input type="date" name="end_date" id="end_date" class="textfield" /></td>
+                        <td><input type="file" name="photo" id="photo"/></td>
+                        <td><input type="submit" name="Submit" value="Add" /></td>
+                    </tr>
+                </form>
+
+            </table>
+
+<hr>
+
+            <table width="950" align="center">
+                <CAPTION><h3>Promotions List</h3></CAPTION>
+                <tr>
+                    <th>Promo Photo</th>
+                    <th>Promo Name</th>
+                    <th>Promo Price</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Action(s)</th>
+                </tr>
+
+            </table>
+
+<hr>
+
+</div>
+
+<div id="footer">
+        <div class="bottom_addr">&copy; <strong>Book A Meal</strong>. All Rights Reserved</div>
+</div>
+
+</div>
+</body>
+</html>

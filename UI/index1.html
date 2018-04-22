@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book A Meal</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+ 
+</head>
+
+<body>
+  <div id="page">
+    <div id="menu">
+      <ul>
+        <li>
+          <div class="logo">
+            <h1>Book A Meal</h1>
+          </div>
+        </li>
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="foodzone.html">Food Zone</a></li>
+        <li><a href="specialdeals.html">Offers</a></li>
+        <li><a href="member-index.html">My Account</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  <div id="header" class="stretchX">
+    <div id="logo"> <a href="index1.html" class="blockLink"></a></div>
+    <div id="restaurant_name">Chesehill Restaurant</div>
+  </div>
+
+  <div id="center">
+    <h1><center><blink><b>Welcome To Book A Meal!</b></blink></center></h1>
+    <div class="body_text">
+  Where you find all your delicacies at your disposal. 
+  Register an account with us to enjoy fast ordering, delivery, and convenient payment of your food.
+  Start now by logging in below or registering if you don't have an account with us:
+    </div>
+    <table align="center" width="100%">
+      <tr align="center">
+        <td style="text-align:center;">
+          <div style="border:#bd6f2f solid 1px;padding:4px 6px 2px 6px">
+            <form id="loginForm" name="loginForm" method="post" action="#" onsubmit="return loginValidate(this)">
+              <table width="290" border="0" align="center" cellpadding="2" cellspacing="0">
+                <tr>
+                  <td colspan="2" style="text-align:center;"><font color="#FF0000">* </font>Required fields</td>
+                </tr>
+                <tr>
+                  <td width="112"><b>Email</b></td>
+                  <td width="188"><font color="#FF0000">* </font><input name="login" type="text" class="textfield" id="login" /></td>
+                </tr>
+                <tr>
+                  <td><b>Password</b></td>
+                  <td><font color="#FF0000">* </font><input name="password" type="password" class="textfield" id="password" /></td>
+                </tr>
+                <tr>
+                  <td><input name="remember" type="checkbox" class="" id="remember" value="1" onselect="cookie()" />Remember me</td>
+                  <td><a href="JavaScript: resetPassword()">Forgot password?</a></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><input type="reset" value="Clear Fields"/>
+                  <input type="submit" name="Submit" value="Login" /></td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+              </table>
+            </form>
+            </div>
+        </td>
+        <hr>
+        <td style="text-align:center;">
+            <div style="border:#bd6f2f solid 1px;padding:4px 6px 2px 6px;">
+            <form id="loginForm" name="loginForm" method="post" action="#" onsubmit="return registerValidate(this)">
+              <table width="450" border="0" align="center" cellpadding="2" cellspacing="0">
+                <tr>
+                    <td colspan="2" style="text-align:center;"><font color="#FF0000">* </font>Required fields</td>
+                </tr>
+                <tr>
+                  <th>First Name </th>
+                  <td><font color="#FF0000">* </font><input name="fname" type="text" class="textfield" id="fname" /></td>
+                </tr>
+                <tr>
+                  <th>Last Name </th>
+                  <td><font color="#FF0000">* </font><input name="lname" type="text" class="textfield" id="lname" /></td>
+                </tr>
+                <tr>
+                  <th width="124">Email</th>
+                  <td width="168"><font color="#FF0000">* </font><input name="login" type="text" class="textfield" id="login" /></td>
+                </tr>
+                <tr>
+                  <th>Password</th>
+                  <td><font color="#FF0000">* </font><input name="password" type="password" class="textfield" id="password" /></td>
+                </tr>
+                <tr>
+                  <th>Confirm Password </th>
+                  <td><font color="#FF0000">* </font><input name="cpassword" type="password" class="textfield" id="cpassword" /></td>
+                </tr>
+               
+                <tr>
+                <td colspan="2"><input type="reset" value="Clear Fields"/>
+                <input type="submit" name="Submit" value="Register" /></td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+              </table>
+            </form>
+            </div>
+        </td>
+    </tr>
+</table>
+<hr>
+</div>
+<div id="footer">
+    <div class="bottom_menu"><a href="index1.html">Home</a>  |  <a href="aboutus.html">About Us</a>  |  <a href="specialdeals.html">Special Deals</a>  |  <a href="foodzone.html">Food Zone</a> | <br>
+  | <a href="admin/access-denied.html" target="_blank">Administrator</a> |</div>
+  
+  <div class="bottom_addr">&copy; <strong>Book A Meal</strong>. All Rights Reserved</div>
+</div>
+</div>
+</body>
+</html>
